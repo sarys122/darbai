@@ -1,0 +1,60 @@
+.background {
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  background-image: url(./yoga-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 100px;
+  width: 100vw;
+  z-index: -1;
+}
+nav {
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+}
+.logo{
+    margin-left: 25px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+li {
+  list-style: none;
+  margin-right: 30px;
+}
+li:last-of-type {
+  margin-right: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.lifestyle {
+  color: red;
+}
+h1 {
+  font-family: monospace;
+}
+button {
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+}
+.left-side {
+  max-width: 40vw;
+  margin: 40px;
+  margin-top: 100px;
+}
+
